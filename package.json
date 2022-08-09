@@ -1,0 +1,19 @@
+{
+  "name": "code_scope",
+  "version": "1.0.0",
+  "description": "diff code parts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkarnaukh/code_scope.git"
+  },
+  "author": "kkarnaukh karnaukhkost@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkarnaukh/code_scope/issues"
+  },
+  "homepage": "https://github.com/kkarnaukh/code_scope#readme"
+}
