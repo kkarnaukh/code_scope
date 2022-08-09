@@ -1,4 +1,3 @@
-const mockDataScope = [1,2,3,4,5,6,7,8,9,10];
 const chunkSize = 2;
 
 export const getData = async (chunkSize, lastId) => {
@@ -7,8 +6,8 @@ export const getData = async (chunkSize, lastId) => {
 };
 
 try {
-    const exportChunk = async (lastLeadId = 0) => {
-        const data = await getData(chunkSize, lastLeadId);
+    const exportChunk = async (lastId = 0) => {
+        const data = await getData(chunkSize, lastId);
 
         if (data.length) {
             // SOME LOGIC HERE...
