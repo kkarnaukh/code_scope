@@ -29,3 +29,13 @@ average execution time (milliseconds):
 
     reduce method time 0.1801539957523346
 
+
+### patterns
+
+simple implementations of different patterns:
+
+builder:
+
+```
+node ./patterns/builder/index.js
+```
