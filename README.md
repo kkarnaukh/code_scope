@@ -17,6 +17,12 @@ to *recursive* function with counter inside this function
 node ./arrays/arrayMethods.js
 ```
 
+### arrays/arrayFlat.js
+
+```
+node ./arrays/arrayFlat.js
+```
+
 test for check performance of 3 array methods: forEach, map, reduce.
 
 using array of mock data from external server. 5000 obj.
